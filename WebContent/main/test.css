@@ -1,0 +1,31 @@
+/* CSSコード */
+h2 {
+ border-bottom: 3px solid #aaa;
+ color: #aaa;
+}
+
+.title{
+  display: inline-block;
+  color: #fff;
+  background: #ffaf58;
+  padding: 0.5em;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.side {
+  width:100px;
+  height:300px;
+  text-align:center;
+  margin-left:10px;/*サイドバーとメインコンテンツの間に隙間をあけた*/
+}
+
+.content {
+  width:250px;
+  height:300px;
+  text-align:center;
+}
+
+article {
+  display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
+}
