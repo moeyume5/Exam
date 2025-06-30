@@ -7,7 +7,7 @@ import bean.School;
 
 public class ClassNumDao extends DAO {
 	public ClassNum get (String class_num,School school) throws Exception{
-
+//test
 	}
 
 	public List<String> filter(School school) throws Exception{
